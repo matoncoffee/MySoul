@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Shantell Sans', cursive;
+	background:black;
 }
 
 section{
@@ -10,9 +11,28 @@ section{
 	align-items: center;
 	min-height: 100vh;
 	width: 100%;
-	background:black;
+	background:	black;
+
 }
 
+h1,h2 {
+	background:black;
+	color: #fff;
+	text-align: center;
+	padding: 1%;
+}
+h1::first-letter{
+	color: #660000;
+}
+
+p{
+	color: #fff;
+	margin: 10%;
+	text-align: center;
+}
+form{
+	background: #660000;
+}
 .form-box{
 	position: relative;
 	width: 400px;
@@ -24,8 +44,8 @@ section{
 
 }
 
-h2{
-	font-size: 2em;
+form h2{
+	background: #660000;
 	color: #fff;
 	text-align: center;
 }
@@ -35,6 +55,8 @@ h2{
 	margin: 30px 0;
 	width: 310px;
 	border-bottom: 2px solid #fff;
+	background: #660000;
+
 }
 
 .inputbox label{
@@ -46,6 +68,8 @@ h2{
 	font-size: 1em;
 	pointer-events: none;
 	transition: .5s;
+	background: #660000;
+
 }
 input:focus ~ label,
 input:valid ~ label{
@@ -60,6 +84,8 @@ input:valid ~ label{
 	font-size: 1em;
 	padding: 0 35px 0 5px;
 	color: #fff;
+	background: #660000;
+
 }
 
 .inputbox ion-icon{
@@ -68,6 +94,8 @@ input:valid ~ label{
 	 color:#fff;
 	 font-size: 1.2em;
 	 top: 20px;
+	 background: #660000;
+
 }
 
 .forget{
@@ -76,6 +104,12 @@ input:valid ~ label{
 	color:#fff;
 	display: flex;
 	justify-content: center;
+	background: #660000;
+
+}
+
+.form-value{
+	background: #660000;
 }
 
 .forget label input{
@@ -85,6 +119,7 @@ margin-right: 3px;
 .forget label a{
 	color: #fff;
 	text-decoration: none;
+	background: #660000;
 }
 .forget label a:hover{
 	text-decoration: underline;
@@ -101,18 +136,34 @@ button{
 	font-weight: 600;
 }
 
+.forget label{
+	background: #660000;
+}
+
 .register{
 	font-size: .9em;
 	color: #fff;
 	text-align: center;
 	margin: 25px 0 10px;
 }
+.register p{
+	background: #660000;
+	margin: auto;
+}
 .register p a{
 	text-decoration: none;
 	color: #fff;
 	font-weight: 600;
+	background: #660000;
 }
 .register p a:hover{
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 680px){
+	
+.form-box{
+	width: auto;
+
+}
+}
