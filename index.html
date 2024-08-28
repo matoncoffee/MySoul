@@ -1,53 +1,60 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Soul</title>
-		<link rel="stylesheet" type="text/css" href="index.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div>
-			<div class="description">
-				<h1><span>╔══ W</span>elcome to <span>M</span>y <span>S</span>oul <span>══╗</span></h1>
-				<h4>A place where you can find yourself</h4>
-				<p><span class="double-mark">“ </span>I am lost... i can't tell who i am... <span class="double-mark">”</span></p>
-				<p>If you feel like that, <span>join us &#9825;</span></p>
-			</div>
-		</div>
-		<section>
-			<div class="form-box">
-				<div class="form-value">
-					<form action="">
-						<h2>Login</h2>
-						<div class="input-email">
-							<label for="email">Email</label>
-							<ion-icon name="mail-outline"></ion-icon>
-							<input type="email" required>
-						</div>
-						<div class="input-password">
-							<label for="">Password</label>
-							<ion-icon name="lock-closed-outline"></ion-icon>
-							<input type="password" required>
-						</div>
-						<div class="forget">
-							<label for=""><input type="checkbox" name="" id="">Remember me | <a href="#">Forget Password</a></label>
-						</div>
-						<button>Log in</button>
-						<div class="register">
-							<p>Don't have an account ? <a href="#">Register</a></p>
-						</div>
-					</form>
-				</div>
-			</div>
-			<span>╚══  ══╝</span>
-		</section>
-		
-		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	</body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A place where you can find yourself. Join My Soul to discover your true identity.">
+    <title>My Soul</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
+<body>
+    <div>
+        <div class="description">
+            <h1><span>╔══ W</span>elcome to <span>M</span>y <span>S</span>oul <span>══╗</span></h1>
+            <h4>A place where you can find yourself</h4>
+            <p><span class="double-mark">“ </span>I am lost... I can't tell who I am... <span class="double-mark">”</span></p>
+            <p>If you feel like that, <span>join us &#9825;</span></p>
+        </div>
+    </div>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="input-email">
+                        <label for="email">Email</label>
+                        <div class="input-wrapper">
+                            <ion-icon name="mail-outline" aria-label="Email Icon"></ion-icon>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <div class="input-password">
+                        <label for="password">Password</label>
+                        <div class="input-wrapper">
+                            <ion-icon name="lock-closed-outline" aria-label="Password Icon"></ion-icon>
+                            <input type="password" id="password" required>
+                        </div>
+                    </div>
+                    <div class="forgot">
+                        <label>
+                            <input type="checkbox" id="remember-me"> Remember me 
+                        </label> 
+                        | <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit">Log in</button>
+                    <div class="register">
+                        <p>Don't have an account? <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
